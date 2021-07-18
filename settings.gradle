@@ -1,4 +1,0 @@
-rootProject.name = "Reddit Android"
-include ':presentation'
-include ':data'
-include ':domain'
