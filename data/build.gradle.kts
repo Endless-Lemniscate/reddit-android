@@ -52,7 +52,6 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
 
-
     //Retrofit
     val retrofitVersion = "2.9.0"
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
@@ -77,10 +76,4 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1")
-
-    //Lifecycle
-    val lifecycleVersion = "2.3.5"
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
-
 }

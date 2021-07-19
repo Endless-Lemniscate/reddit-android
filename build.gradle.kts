@@ -1,5 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply(plugin = "org.jlleitschuh.gradle.ktlint")
+
 buildscript {
+
     repositories {
         google()
         mavenCentral()
@@ -14,8 +17,6 @@ buildscript {
         classpath("androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5")
     }
 }
-
-apply(plugin = "org.jlleitschuh.gradle.ktlint")
 
 allprojects {
     repositories {

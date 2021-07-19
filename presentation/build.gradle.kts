@@ -7,9 +7,6 @@ plugins {
     id("dagger.hilt.android.plugin")
 }
 
-
-
-
 android {
     compileSdkVersion(30)
     buildToolsVersion("30.0.3")
@@ -88,7 +85,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1")
 
     //Lifecycle
-    val lifecycleVersion = "2.3.5"
+    val lifecycleVersion = "2.3.1"
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
 }
